@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <title>Text2Mates</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Send SMS Message</h2>
+        <form action="" method="post">
+            <input type="tel" name="number" id="number" placeholder="Enter Phone Number...">
+            <br>
+            <textarea name="msg" id="" cols="30" rows="10"></textarea>
+            <br>
+            <input type="button" value="Send" id="button" class="button button-primary">
+            <p class="response"></p>
+        </form>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
